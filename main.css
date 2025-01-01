@@ -18,10 +18,12 @@ h1{
 h2{
     font-weight: 100;
     font-size: 70px;
+    margin-bottom: 10px;
 }
 p{
     font-size: 20px;
-    margin-top: 1px;
+    margin-top: 2px;
+    font-weight: 300;
 }
 a{
     color: #a59e96;
@@ -55,6 +57,10 @@ a{
     padding: 2% 0% 0% 2%;
     width: 50%;
     overflow-y: scroll;
+}
+.project-information-container{
+    padding: 10px 0;
+    width: 90%;
 }
 
 
