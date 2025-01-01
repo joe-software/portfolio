@@ -14,18 +14,19 @@
 </head>
 <body>
     <div id="main-container">
+        <div id="bio-container">
             <div id="title-container">
                 <h1>Joe Purvis</h1>
                 <h2>Software Developer</h2>
                 <br/>
-                <p>Passionate about positive change; <br>Thrilled by problem solving; </p>
+                <h3>Passionate about positive change; <br>Thrilled by problem solving; </h3>
                 <br/>
                 <br/>
                     <div id="contact-container">
                         <div>
-                        <p>Email &nbsp &nbsp</p>
-                        <p>Security Blog &nbsp &nbsp</p>
-                        <p>Github &nbsp &nbsp</p>
+                        <h3>Email &nbsp &nbsp</h3>
+                        <h3>Security Blog &nbsp &nbsp</h3>
+                        <h3>Github &nbsp &nbsp</h3>
                         </div>
                         <div>
                             <p class="contact-info">joe.purvis@hotmail.co.uk</p>
@@ -34,17 +35,20 @@
                         </div>
                     </div>
                     <div>
-                        <img style="height: 250px; border: 2px solid #a59e96;" src="./images/headshot3.jpeg">
+                        <img class="hidden-height" src="./images/headshot3.jpeg">
                     </div>
+                </div>
             </div>
     
 
     <div id="project-container">
         <h1>Projects</h1>
         <br/>
+        <p class="hidden-width">Scroll down for more...</p>
         <br/>
+        
         <div class="project-information-container">
-            <a href="https:///joe-software.github.io/dictionary-app/" target="_blank">
+            <a href="https:///joe-software.github.io/dictionary-app/" target="_blank" class="test">
                 <h2>Dictionary App</h2>
                 <p>Built with React and a dictionary API (https://dictionaryapi.dev/), includes colour theme and font options.</p>
             </a>
@@ -58,8 +62,8 @@
         </div>
 
         <div class="project-information-container">
-            <a href="https:///joe-software.github.io/quiz-app/" target="_blank">
-                <h2>Movie Review App</h2>
+            <a href="https:///joe-software.github.io/movie-review-app/" target="_blank">
+                <h2>Review App</h2>
                 <p>Built with React and a movie database API (https://www.themoviedb.org/). The server side code for storing the review data is hosted on Heroku using Node, Express and Mongo.</p>
             </a>
         </div>
